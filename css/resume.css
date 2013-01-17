@@ -1,0 +1,78 @@
+#resume {
+    height: 100%;
+    position: relative;
+}
+
+#bouncing-ball-outer {
+    width: 180px;
+    height: 100%;
+    float: left;
+    
+    background-color: bisque;
+}
+
+#bouncing-ball {
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    
+	-webkit-border-radius: 999px;
+    border-radius: 999px;
+	
+    background-color: mediumturquoise;
+}
+
+.bouncing-ball-bg {
+	position: absolute;
+	-webkit-border-radius: 999px;
+    border-radius: 999px;
+}
+
+#resume-text {
+    width: 710px;
+    height: 100%;
+    float: right;
+    padding-bottom: 180px;
+}
+
+.resume-section {
+	min-height: 180px;
+    padding: 0 1em 40px 1em;
+    
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    
+    border: 1px solid white;
+    
+    -webkit-transition: border-color 0.5s;
+    -moz-transition:    border-color 0.5s;
+    -ms-transition:     border-color 0.5s;
+    -o-transition:      border-color 0.5s;
+    transition:         border-color 0.5s;
+}
+
+.resume-section:hover {
+    border-color: rgb(200, 200, 200);
+    
+    -webkit-transition: border-color 0.5s;
+    -moz-transition:    border-color 0.5s;
+    -ms-transition:     border-color 0.5s;
+    -o-transition:      border-color 0.5s;
+    transition:         border-color 0.5s;
+}
+
+.resume-subsection {
+    padding: 0;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+}
+
+.resume-subsection:hover {
+    background-color: rgb(200, 200, 200);
+    
+    -webkit-transition: background-color 0.5s;
+    -moz-transition:    background-color 0.5s;
+    -ms-transition:     background-color 0.5s;
+    -o-transition:      background-color 0.5s;
+    transition:         background-color 0.5s;
+}

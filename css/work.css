@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+
+#work {
+    text-align: center;
+}
+
+#work a:link, #work a:visited {
+	text-decoration: none;
+}
+
+.work-gallery {
+	text-align: center;	
+}
+
+#games a:link, #games a:visited{
+    color: black;
+    font-family: "Bevan", cursive;
+	text-decoration: none;
+}
+
+#games-twocol {
+	margin: 0 auto;
+}
+
+#games-leftcol {
+	width: 50%;
+	min-height: 100%;
+	float: left;
+	text-align: right;
+}
+
+#games-rightcol {
+	width: 50%;
+	min-height: 100%;
+	float: right;	
+	text-align: left;
+}
+
+#games-cell {
+    padding: 0;
+    
+    border: 1px solid white;
+    -webkit-transition: border-color 0.5s;
+    -moz-transition:    border-color 0.5s;
+    -ms-transition:     border-color 0.5s;
+    -o-transition:      border-color 0.5s;
+    transition:         border-color 0.5s;
+}
+
+#games-cell:hover {
+    border-color: rgb(200, 200, 200);
+    
+    -webkit-transition: border-color 0.5s;
+    -moz-transition:    border-color 0.5s;
+    -ms-transition:     border-color 0.5s;
+    -o-transition:      border-color 0.5s;
+    transition:         border-color 0.5s;
+}
+
+#artwork {
+	clear: both;
+	width: 100%;	
+}
